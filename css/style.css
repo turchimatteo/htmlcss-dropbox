@@ -8,6 +8,7 @@
 /* COMMON */
 body {
     font-family: "Open Sans", sans-serif;
+
 }
 
 /* Button */
@@ -25,6 +26,11 @@ body {
     color: white;
     height: 80%;
 }
+.large {
+    background-color: #0061ff;
+    color: white;
+    height: 80%;
+}
 .btn:hover {
     background-color: #3c84ff;
 }
@@ -34,9 +40,10 @@ header {
     position: fixed;
     left: 0;
     top: 0;
-    height: 70px;
+    height: 78px;
     width: 100%;
     background-color: white;
+    z-index: 1;
 }
 .logo {
     width: 130px;
@@ -55,8 +62,7 @@ header {
     height: 80px;
     float: left;
 
-    /* test */
-    border: 1px solid red;
+  
 }
 .destra {
     width: 49.4%;
@@ -64,8 +70,7 @@ header {
     float: right;
     text-align: right;
 
-    /* test */
-    border: 1px solid red;
+
 
 }
 .menu li {
@@ -100,12 +105,45 @@ main {
 }
 .jumbotron {
     background-color: #b4d0e7;
-    height: 1000px;
+    height: 600px;
 }
 .container {
-    width: 70%;
+    width: 75%;
     height: 85%;
+    position: relative;
+    top: 10%;
+    left: 13%; 
+}
+.titolo {
+    height: 30%;
+    font-size: 37px;
 
-    /* test */
-    border: 1px solid black;
+}
+.testo {
+    float: left;
+    font-size: 15px;
+    width: 31%;
+    height: 400px; 
+    text-align: left;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.paragrafo, .bottone {
+    margin-top: 30px;
+}
+.img-jumbotron {
+    float: right;
+    width: 69%;
+    height: 550px;
+    background-image: url("../img/jumbo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.paragrafo-due {
+    font-size: 13px;
+    margin-top: 10px;
+}
+.arrow {
+    font-size: 30px;
+    margin-top: 30px;
 }
