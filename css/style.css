@@ -45,16 +45,27 @@ header {
 .menu {
     list-style-type: none;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 .sinistra {
     width: 49.4%;
     height: 80px;
-    display: inline-block;
+    float: left;
+
+    /* test */
+    border: 1px solid red;
 }
 .destra {
     width: 49.4%;
     height: 80px;
-    display: inline-block;
+    float: right;
     text-align: right;
+
+    /* test */
+    border: 1px solid red;
 
 }
 .menu li {
