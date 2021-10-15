@@ -1,0 +1,97 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Button */
+.btn {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 14px;
+    line-height: normal;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+.small {
+    background-color: #0061ff;
+    color: white;
+    height: 80%;
+}
+.btn:hover {
+    background-color: #3c84ff;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+}
+.logo {
+    width: 130px;
+    vertical-align: middle;
+}
+.menu {
+    list-style-type: none;
+}
+.sinistra {
+    width: 49.4%;
+    height: 80px;
+    display: inline-block;
+}
+.destra {
+    width: 49.4%;
+    height: 80px;
+    display: inline-block;
+    text-align: right;
+
+}
+.menu li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 0;
+    height: 100%;
+}
+.menu a {
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-weight: bold;
+}
+.sinistra a {
+    margin-right: 40px;
+    margin-left: 5px;
+}
+.destra a {
+    margin-left: 40px;
+    
+}
+.menu li:hover {
+    border-bottom: 2px solid gray;
+}
+
+/* MAIN */
+.jumbotron {
+    background-color: #b4d0e7;
+    height: 1000px;
+}
+.container {
+    width: 70%;
+    height: 85%;
+
+    /* test */
+    border: 1px solid black;
+}
