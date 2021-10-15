@@ -95,6 +95,9 @@ header {
 }
 
 /* MAIN */
+main {
+    margin-top: 70px;
+}
 .jumbotron {
     background-color: #b4d0e7;
     height: 1000px;
