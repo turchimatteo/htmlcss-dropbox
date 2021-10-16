@@ -10,6 +10,13 @@ body {
     font-family: "Open Sans", sans-serif;
 
 }
+.container {
+    width: 75%;
+    height: 85%;
+    position: relative;
+    top: 10%;
+    left: 13%; 
+}
 
 /* Button */
 .btn {
@@ -103,16 +110,10 @@ header {
 main {
     margin-top: 70px;
 }
+/* Jumbotron */
 .jumbotron {
     background-color: #b4d0e7;
     height: 600px;
-}
-.container {
-    width: 75%;
-    height: 85%;
-    position: relative;
-    top: 10%;
-    left: 13%; 
 }
 .titolo {
     height: 30%;
@@ -147,3 +148,64 @@ main {
     font-size: 30px;
     margin-top: 30px;
 }
+
+/* Business */
+.business {
+    margin-top: 130px;
+    height: 1000px;
+
+    /* test */
+    border: 1px solid red;
+}
+.descrizione{
+    height: 25%;
+    width: 100%;
+
+    /* test */
+    border: 1px solid red;
+
+}
+.descrizione h2 {
+    font-size: 30px;
+    margin-top: 50px;
+    vertical-align: middle;
+}
+.fatturazione {
+    margin-top: 50px;
+}
+.checkbox {
+    height: 17px;
+    width: 17px;
+    border-radius: 17px;
+    border: 1px solid grey;
+    display: inline-table;
+    margin-top: 5px;
+    position: relative;
+    top: 4px;
+    left: 0;
+}
+.blu {
+    border: 5px solid #0061ff;
+}
+.fatturazione p {
+    font-size: 15px;
+    margin-right: 15px;
+    display: inline-block;
+}
+.piani-business {
+    width: 100%;
+    /* height: 50%; */
+
+    /* test */
+    border: 1px solid red;
+    height: 100%;
+}
+.piano {
+    height: 75%;
+    width: 33%;
+    display: inline-block;
+
+    /* test */
+    border: 1px solid green;
+}
+
