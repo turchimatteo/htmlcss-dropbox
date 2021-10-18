@@ -423,3 +423,58 @@ main {
 .sesta {
     background-image: url("../img/business-feature-security.png");
 }
+
+/* Aziende affiliate */
+.logos {
+    height: 500px;
+    border: 1px solid red;
+}
+.aziende h2 {
+    font-size: 35px;
+    width: 45%;
+}
+.aziende div {
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.colonna {
+    float: left;
+}
+
+.colonna-logo {
+    width: 27%;
+    height: 400px;
+
+    border: 1px solid green;
+}
+.colonna-text {
+    width: 46.6%;
+    height: 400px;
+    background-color: #f5f5f5;
+}
+.riga {
+    height: 50%;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logos img {
+    filter: invert(1);
+    height: 100%;
+    width: 65%;
+    padding: 20px 10px;
+    margin-left: 38px;
+}
+.designit {
+    background-color: #a2d39b;   
+    border: 10px solid #d0e9cd; 
+}
+.asu {
+    background-color: #61082b; 
+}
