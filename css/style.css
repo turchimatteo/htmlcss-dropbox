@@ -554,3 +554,41 @@ main {
     margin-top: 10px;
     margin-right: 40px;
 }
+
+/* FOOTER */
+.menu-footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 110px 140px;
+}
+.sezione {
+    float: left;
+}
+.menu-singolo {
+    width: 18%;
+}
+.menu-singolo h4 {
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.menu-singolo li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    margin-left: 30px;
+}
+.menu-singolo a {
+    text-decoration: none;
+    color: white;
+}
+.menu-singolo hr {
+    background-color: grey;
+    margin-top: 60px;
+    width: 50%;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.linguaggio {
+    color: grey;
+    margin-left: 30px;
+}
